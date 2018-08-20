@@ -1,0 +1,41 @@
+[
+  { "imageUrl": "../../assets/images/photo0.jpg",
+    "imageName": "Yǔsǎn 雨伞",
+    "popImagePath": "../../assets/images/popImages/",
+    "popImages": [
+      { "value": "photo0a.jpg" },
+      { "value": "photo0b.jpg" },
+      { "value": "photo0c.jpg" }
+      ],
+    "posY": "10",
+    "description": " <b style='color:red;'>In Ancient China</b> they invented the umbrella.The umbrella was first invented in 3500 B.C. This Ancient Chinese invention was used to keep them from soaking wet when it rained. The Chinese used the umbrella to protect themselves from the sun rays. This invention was made by bamboo and oil paper because oil repels water. Umbrella can be used offensively as a weapon, or its shaft can effectively hide a secret blade."
+  },
+  { "imageUrl": "../../assets/images/photo1.jpg",
+    "imageName": "Fantasy Island",
+    "popImagePath": "../../assets/images/popImages/",
+    "popImages": [
+      { "value": "photo1a.jpg" },
+      { "value": "photo1b.jpg" },
+      { "value": "photo1a.jpg" },
+      { "value": "photo1b.jpg" },
+      { "value": "photo1c.jpg" }
+      ],
+    "posY": "20",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  { "imageUrl": "../../assets/images/popImages/photo2a.jpg",
+    "imageName": "Sexy",
+    "popImagePath": "../../assets/images/popImages/",
+    "popImages": [
+      { "value": "photo2a.jpg" },
+      { "value": "photo2b.jpg" },
+      { "value": "photo2c.jpg" },
+      { "value": "photo2d.jpg" },
+      { "value": "photo2e.jpg" },
+      { "value": "photo2f.jpg" },
+      { "value": "photo2g.jpg" }
+      ],
+    "posY": "20",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

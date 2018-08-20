@@ -1,0 +1,25 @@
+
+
+
+
+/*----------------------------------------=
+=---=|    Import: General styling    |=---=
+=-----------------------------------------*/
+@import './../../styles.scss';
+
+
+.masong {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(251, 240, 252);
+    padding-top: 200px;
+    // padding: 10px;
+    // margin: 10px;
+}
+
+.rlg-photo-kontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid rgb(69, 97, 97);
+}

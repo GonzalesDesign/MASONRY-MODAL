@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+<div>
+    YOU POPPED ME!
+  </div>
+
+  <div class="imageCarousel"
+      [style.display]="'flex'"
+      [style.justifyContent]="'center'"
+      >
+      <div *ngFor="let foto of imageToLoad; let i = index"
+            [style.backgroundImage]="'url(' + popImagePath + foto.value + ')'"
+            [style.background-repeat]="'no-repeat'"
+            [style.backgroundSize]="'cover'"
+            [style.width.px]="300"
+            [style.height.vh]="70"
+            [style.backgroundColor]="'red'"
+            [style.backgroundPositionX.%]="50"
+            [style.border]="'0px solid'">
+      </div>
+  </div>
