@@ -7,6 +7,32 @@
 =-----------------------------------------*/
 @import './../../styles.scss';
 
+// @import "@material/image-list/mdc-image-list";
+
+/*---- Masonry Image List ----*/
+.my-masonry-image-list {
+    // @include mdc-image-list-masonry-columns(2);
+    max-width: 1200px;
+    // border: 1px solid rgba(129, 25, 25, 0.479)
+}
+@media only screen and (max-width: 899px) and (min-width: 400px) {
+    // @media (min-width: 800px; max-width: 1399px;) {
+        .my-masonry-image-list {
+            @include mdc-image-list-masonry-columns(2);
+        }
+    }
+@media only screen and (max-width: 1399px) and (min-width: 900px) {
+// @media (min-width: 800px; max-width: 1399px;) {
+    .my-masonry-image-list {
+        @include mdc-image-list-masonry-columns(3);
+    }
+}
+@media (min-width: 1400px) {
+    .my-masonry-image-list {
+        @include mdc-image-list-masonry-columns(4);
+    }
+}
+
 
 .masong {
     display: flex;
@@ -17,9 +43,38 @@
     // margin: 10px;
 }
 
-.rlg-photo-kontainer {
+/* .rlg-photo-kontainerX {
     display: flex;
     flex-direction: row;
     margin: 10px;
     border: 1px solid rgb(69, 97, 97);
+} */
+
+.rlg-photo-kontainer {
+    // display: flex;
+    // justify-content: flex-end;
+    position: relative;
+    // border: 1px solid red;
+
+    .rlg-photo-title-kontainer-bg {
+        display: flex;
+        justify-content: center;
+        // align-content: flex-end;
+        position: absolute;
+        // top: 0;
+        bottom: 0;
+        height: 1.2rem;
+        width: 100%;
+        padding: 1em;
+        z-index: 101;
+        background-color: rgba($mdc-theme-primary, 0.557);
+        border-top: 3px solid rgba($mdc-theme-secondary, 0.557);
+
+        .rlg-photo-title {
+            font-family: $rlg-round-font;
+            font-size: 1.2rem;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
 }

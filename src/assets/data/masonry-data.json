@@ -1,6 +1,6 @@
 [
   { "imageUrl": "../../assets/images/photo0.jpg",
-    "imageName": "Yǔsǎn 雨伞",
+    "imageName": "Shrouded",
     "popImagePath": "../../assets/images/popImages/",
     "popImages": [
       { "value": "photo0a.jpg" },
@@ -24,7 +24,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   { "imageUrl": "../../assets/images/popImages/photo2a.jpg",
-    "imageName": "Sexy",
+    "imageName": "Ladies",
     "popImagePath": "../../assets/images/popImages/",
     "popImages": [
       { "value": "photo2a.jpg" },
@@ -34,6 +34,46 @@
       { "value": "photo2e.jpg" },
       { "value": "photo2f.jpg" },
       { "value": "photo2g.jpg" }
+      ],
+    "posY": "20",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  { "imageUrl": "../../assets/images/photo3.jpg",
+    "imageName": "Carlos",
+    "popImagePath": "../../assets/images/popImages/",
+    "popImages": [
+      { "value": "photo3a.jpg" },
+      { "value": "photo3b.jpg" },
+      { "value": "photo3c.jpg" },
+      { "value": "photo3d.jpg" },
+      { "value": "photo3e.jpg" },
+      { "value": "photo3f.jpg" }
+      ],
+    "posY": "10",
+    "description": " <b style='color:red;'>In Ancient China</b> they invented the umbrella.The umbrella was first invented in 3500 B.C. This Ancient Chinese invention was used to keep them from soaking wet when it rained. The Chinese used the umbrella to protect themselves from the sun rays. This invention was made by bamboo and oil paper because oil repels water. Umbrella can be used offensively as a weapon, or its shaft can effectively hide a secret blade."
+  },
+  { "imageUrl": "../../assets/images/photo4.jpg",
+    "imageName": "Tattoos",
+    "popImagePath": "../../assets/images/popImages/",
+    "popImages": [
+      { "value": "photo4a.jpg" },
+      { "value": "photo4b.jpg" },
+      { "value": "photo4c.jpg" },
+      { "value": "photo4d.jpg" },
+      { "value": "photo4e.jpg" }
+      ],
+    "posY": "20",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  { "imageUrl": "../../assets/images/photo5.jpg",
+    "imageName": "Custom Cars",
+    "popImagePath": "../../assets/images/popImages/",
+    "popImages": [
+      { "value": "photo5a.jpg" },
+      { "value": "photo5b.jpg" },
+      { "value": "photo5c.jpg" },
+      { "value": "photo5d.jpg" },
+      { "value": "photo5e.jpg" }
       ],
     "posY": "20",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
